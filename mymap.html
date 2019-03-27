@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(28.689169, 77.324448);
+		var myOptions = {
+			zoom: 17,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(28.686086, 77.325074);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/FFFF00/');
+		var marker = new google.maps.Marker({
+		title: "no implementation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(28.685742, 77.325305);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/0000FF/');
+		var marker = new google.maps.Marker({
+		title: "no implementation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(28.685295, 77.325608);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/0000FF/');
+		var marker = new google.maps.Marker({
+		title: "no implementation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(28.684968, 77.325847);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/0000FF/');
+		var marker = new google.maps.Marker({
+		title: "no implementation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(28.684542, 77.326147);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/0000FF/');
+		var marker = new google.maps.Marker({
+		title: "no implementation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(28.684288, 77.326316);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/0000FF/');
+		var marker = new google.maps.Marker({
+		title: "no implementation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(28.683980, 77.326515);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/0000FF/');
+		var marker = new google.maps.Marker({
+		title: "no implementation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(28.683756, 77.326094);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/0000FF/');
+		var marker = new google.maps.Marker({
+		title: "no implementation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(28.683573, 77.325780);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/0000FF/');
+		var marker = new google.maps.Marker({
+		title: "no implementation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(28.683573, 77.325780);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/FF0000/');
+		var marker = new google.maps.Marker({
+		title: "no implementation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>
